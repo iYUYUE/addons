@@ -17,6 +17,8 @@ options:
   defaults:
     - 8.8.8.8
     - 8.8.4.4
+  domains: []
+  rebinds: []
   forwards: []
   hosts: []
   services: []
@@ -26,6 +28,10 @@ ports:
   53/udp: 53
 schema:
   defaults:
+    - str
+  domains:
+    - str
+  rebinds:
     - str
   forwards:
     - domain: str
