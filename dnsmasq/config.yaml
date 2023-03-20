@@ -3,7 +3,7 @@ version: 1.5.2
 slug: dnsmasq
 name: Dnsmasq
 description: A simple DNS server
-url: https://github.com/home-assistant/hassio-addons/tree/master/dnsmasq
+url: https://github.com/iYUYUE/addons/tree/master/dnsmasq
 advanced: true
 arch:
   - armhf
@@ -11,7 +11,7 @@ arch:
   - aarch64
   - amd64
   - i386
-image: homeassistant/{arch}-addon-dnsmasq
+image: iyuyue/{arch}-addon-dnsmasq
 init: false
 options:
   defaults:
